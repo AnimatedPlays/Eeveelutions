@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>TP2(Adriano Blaise)</title>
+</head>
+<body>
+    <header class="siteHeader">
+        <div class="headerContainer">
+            
+            <!-- Logo/ Titre du site -->
+            <h1 class="logo">Eeveelutions</h1>
+            
+            <!-- Navigation principale -->
+            <nav class="Menu">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#inscription">Inscription</a></li>
+                    <li><a href="#tableau">Tableau</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="accueil" class="section accueil">
+        <div class="accueil-contenu">
+
+            <p class="tp">TP2</p>
+
+            <h2 class="titre-site">Les Eeveelutions – Pokémon</h2>
+
+            <p class="nom">Adriano Blaise</p>
+
+            <p>582-1W1 – Mise en page Web</p>
+            <p>Techniques d’intégration multimédia</p>
+            <p>Collège de Maisonneuve</p>
+
+            <p class="github">GitHub : <a href="https://github.com/AnimatedPlays/Eeveelutions.git" target="_blank">https://github.com/AnimatedPlays/Eeveelutions.git</a></p>
+
+            <p class="session">Automne 2025</p>
+
+        </div>
+    </section>
+    
+    <section id="inscription" class="section inscription">
+
+    <form class="formulaire">
+
+        <h2>Inscription du dresseur</h2>
+        <p>Rejoins la communauté des Eeveelutions</p>
+
+        <!-- Nom -->
+        <label for="nom">Nom du dresseur</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <!-- Courriel -->
+        <label for="email">Adresse courriel</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Mot de passe -->
+        <label for="mdp">Mot de passe</label>
+        <input type="password" id="mdp" name="mdp" required>
+
+        <!-- Date -->
+        <label for="date">Date d’inscription</label>
+        <input type="date" id="date" name="date">
+
+        <!-- Radio -->
+        <fieldset>
+        <legend>Évolution préférée</legend>
+        <label><input type="radio" name="evolution" value="vaporeon"> Vaporeon</label>
+        <label><input type="radio" name="evolution" value="jolteon"> Jolteon</label>
+        <label><input type="radio" name="evolution" value="flareon"> Flareon</label>
+        <label><input type="radio" name="evolution" value="umbreon"> Umbreon</label>
+        <label><input type="radio" name="evolution" value="sylveon"> Sylveon</label>
+        <label><input type="radio" name="evolution" value="espeon"> Espeon</label>
+        <label><input type="radio" name="evolution" value="leafeon"> Leafeon</label>
+        <label><input type="radio" name="evolution" value="glaceon"> Glaceon</label>
+        </fieldset>
+
+        <!-- Liste déroulante -->
+        <label for="region">Région Pokémon</label>
+        <select id="region" name="region">
+        <option value="">-- Choisir une région --</option>
+        <option>Kanto</option>
+        <option>Johto</option>
+        <option>Hoenn</option>
+        <option>Sinnoh</option>
+        <option>Unys</option>
+        <option>Kalos</option>
+        <option>Alola</option>
+        <option>Galar</option>
+        <option>Paldea</option>
+        </select>
+
+        <!-- Case à cocher -->
+        <label class="checkbox">
+        <input type="checkbox" required>
+        J’accepte les conditions d’utilisation
+        </label>
+
+        <!-- Boutons -->
+        <div class="boutons">
+        <input type="submit" value="S’inscrire">
+        <input type="reset" value="Réinitialiser">
+        </div>
+
+    </form>
+
+    </section>
+    
+
+    <section id="tableau"></section>
+    <section id="articles"></section>
+    <section id="galerie"></section>
+    <footer id="footer"></footer>
+</body>
+</html>
